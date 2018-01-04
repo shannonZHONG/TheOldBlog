@@ -1,4 +1,4 @@
 # blog
-this is my first commit.
+所有博文都在Issues里，请移步Issues。
 
-## this is my second commit.
+

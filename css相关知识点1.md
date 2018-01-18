@@ -1,6 +1,5 @@
-css 的高度:
+css的相关知识点 1 :
 
-：
 参考：
 http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 此文中出现的名字一览：
@@ -13,7 +12,9 @@ http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 
 第一个知识点：
 总结：如果div 里面只有一个内联元素 那么div 的高度就是由这一个 元素决定
-开场白：div 是最常见的 块级元素   
+
+开场白：div 是最常见的 块级元素 
+
 问：如果在div 里面写1 那么 高度是多少？见代码
 答：不知道 但是可以在css 里添加一个  font-size ：20px 就知道了 
 问：ok 那现在按照你说的 已经添加了 那为什么查看开发者工具 说字体是28px 见代码 
@@ -40,7 +41,7 @@ http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 答：Text-align: justify 多行时候对齐 见代码
 问：文本只有一行怎么办？
 答：⚠️：<span></span> 是内联元素  要设置内联元素的宽和高时  先要设定：display ：inline-block ； 
-        方法添加 三行：见代码
+方法添加 三行：见代码
 问：啊 怎么出来的 
 答：这三行代码 等同于 添加 一行
 问：哪里出来的一行
@@ -55,4 +56,12 @@ http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 答：html会把所有inline element  之外的 都删掉 同时 inline element 之间的 空间都删除掉 
 问：那这个导航栏的之间的空隙怎么删掉？加代码 
 答：只要是inline 之间 有看不见的东西 都会有 空隙  除非用 inline block 换成 display：float  见代码
-         同时用clear fix 
+同时用clear fix 
+
+第五个知识点：
+问：什么是文档流？
+答：内联元素足够多 一行容纳不下  那么元素会自动排行 从左往右的排 
+
+第六个知识点：
+问：不加连字符 怎么让文字断开？
+答：添加一行 word-break:break all;

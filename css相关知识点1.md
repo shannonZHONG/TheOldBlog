@@ -1,4 +1,4 @@
-# css的相关知识点 1 :
+# css的相关知识点一 :
 
 此文中出现的名字一览：[参考](http://geekplux.com/2014/04/25/several_core_concepts_of_css.html)
 

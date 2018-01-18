@@ -1,8 +1,6 @@
-#css的相关知识点 1 :
+# css的相关知识点 1 :
 
-此文中出现的名字一览：
-参考：
-http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
+此文中出现的名字一览：[参考](http://geekplux.com/2014/04/25/several_core_concepts_of_css.html)
 
 块级元素 和 内联元素的区别：
 
@@ -10,7 +8,7 @@ http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 2.	块级元素可以设置 width、height 属性，而内联元素设置无效。
 3.	块级元素的 width 默认为 100%，而内联元素则是根据其自身的内容或子元素来决定其宽度。
 
-##第一个知识点：
+## 第一个知识点：
 总结：如果div 里面只有一个内联元素 那么div 的高度就是由这一个 元素决定
 
 开场白：div 是最常见的 块级元素 
@@ -28,13 +26,13 @@ http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 问：那div行高 和字体的大小有关系吗？<br>
 答：div行高 = 字体*建议的行高  <br>
 
-##第二个知识点：
+## 第二个知识点：
 总结：不要滥用nbsp 去布局 <br> 
 开场白：吞掉的空格<br>
 问：1 空格 空格 2 为什么没有两个空格没有显示出来 见代码;<br>
 答：1 &nbsp;&nbsp; 2 <br>
 
-##第三个知识点：
+## 第三个知识点：
 总结：三行代码 基本搞掂 <br>
 开场白： 对齐 一定要对齐 不然看着好难受<br>
 问： 多行怎么对齐<br>
@@ -49,7 +47,7 @@ http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 问：怎么取消那条蓝色的线<br>
 答：需要强制设定 span 的高度 等同于 span 一定要缩小<br>   
 
-##第四个知识点：
+## 第四个知识点：
 总结：用了inline block 一定会有 间隙 除非用float 同时用clear fix <br>
 开场白：那些空隙都去哪里了以及怎么删掉空隙 <br>
 问：1 和 2 前面的空格去哪里了？见代码<br>
@@ -58,10 +56,10 @@ http://geekplux.com/2014/04/25/several_core_concepts_of_css.html
 答：只要是inline 之间 有看不见的东西 都会有 空隙  除非用 inline block 换成 display：float  见代码<br>
 同时用clear fix <br>
 
-##第五个知识点：
+## 第五个知识点：
 问：什么是文档流？<br>
 答：内联元素足够多 一行容纳不下  那么元素会自动排行 从左往右的排 <br>
 
-##第六个知识点：
+## 第六个知识点：
 问：不加连字符 怎么让文字断开？<br>
 答：添加一行 word-break:break all;<br>

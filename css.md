@@ -349,7 +349,7 @@ line-height： 20px；
     }
 ```
        
-      6.6.4 全部代码如下：
+     
 ```
 <!DOCTYPE html>
 <html>

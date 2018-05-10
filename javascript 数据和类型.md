@@ -78,6 +78,9 @@ true    or  false
 怎么正确取得对象的属性？ 
 空字符串可以当对象的属性吗？ 
 怎么删除一个属性？
+怎么循环一个object 里面的所有属性？ 
+怎么知道一个变量的类型？ 
+
 ```
 var    name ='apple’；
 var    numberOfApples = 5；
@@ -100,4 +103,47 @@ todayPayApples['']//apples
 //有单引号就是字符串 没有单引号是一个变量 因为在对象的属性名字默认是一个字符串  
 //属性的命名也同样遵守标志符规则 不想遵守的话 命名的时候 最好添加上引号
 //前提条件：name 是一个字符串 person['name']等同于person.name.  dot notation 只能接受字符串 braket notation 不仅仅可以接受字符串 多数情况下 用 braket notation 。    
+delete todayPayApples ['name'];
+todayPayApples.name; // undefined;
+'name ' in todayPayApples // false  （no key）
+⚠️： 最后的结果 todayPayApples1.name = undefined; 都是undefined 但是差别却很大 
+var  todayPayApples1 = {name: 'today'};
+todayPayApples1.name = undefined;
+‘name’ in  todayPayApples1 // true （no value）
+```
+
+
+
+```
+// 关于循环遍历对象里的属性 
+var person = {name:'shannon',age:'18'};
+for(var key in person)
+{
+console.log(key);
+} // shannon age 
+
+for(var key in person)
+{
+console.log(person[key]);
+} // shannon age 
+
+
+for(var key in person)
+{
+console.log(person.key);
+} // undefined  dot notation 的key 是字符串 但是var key 的key 是一个变量  所以是undefined
+```
+
+
+```
+var t=1;
+typeof t; // “number”
+var t=undefined；
+typeof t；// "undefined"
+var t=null;
+typepf t;//'object' 非常特别 重点记忆
+function f(){
+}
+typeof f; //'function' 
+
 ```

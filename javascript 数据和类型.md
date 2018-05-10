@@ -1,27 +1,27 @@
 # javaScript 的数据和类型
 ## 1.0 JavaScript 的各个版本和新名字由来  
-ES3： 最早的JavaScript 版本 
-ES5： 相对于ES3  有改变 但不多  
-ES6 ：有很多重要的改变   同时还有另外一种名字ECMA2015
-ES7, ES8:  有改变 不多 
+ES3： 最早的JavaScript 版本 <br>
+ES5： 相对于ES3  有改变 但不多 <br> 
+ES6 ：有很多重要的改变   同时还有另外一种名字ECMA2015<br>
+ES7, ES8:  有改变 不多 <br>
 
-JavaScript 的另外一种名字的由来 
-当年 NetScape  向 ECMA 申报 JavaScript标准  但是 javascript 已经被Netscape公司注册了商标  所以ECMA为JavaScript 取了一个新名字：ECMA Script；
+JavaScript 的另外一种名字的由来<br> 
+当年 NetScape  向 ECMA 申报 JavaScript标准  但是 javascript 已经被Netscape公司注册了商标  所以ECMA为JavaScript 取了一个新名字：ECMA Script；<br>
 
 
 
 ## 2.0 javascript 的数据类型
-string number symbol  undefined null object  boolean 
+string number symbol  undefined null object  boolean <br>
 
-那么function 和 array 是什么？ 是object。
+那么function 和 array 是什么？ 是object。<br>
 
 
 
 ### 2.1数字的分类： 
-十进制以及表达方式：  1;   1 + ‘0.1’;  1.23e2;
-二进制以及表达方式：以0b开头的数  0b11 就是十进制的3  大小写无所谓 
-八进制以及表达方式：以0开头 011 就是十进制的9  注意：存以0开头的电话号码 电话号码要以字符串的形式存下来 如果不是以字符串的形式存下来，游览器会自动任务这是一个以0 开头的八进制数字。 
-十六进制以及表达方式：以0X 开头  0x11 就是十进制的17 
+十进制以及表达方式：  1;   1 + ‘0.1’;  1.23e2;<br>
+二进制以及表达方式：以0b开头的数  0b11 就是十进制的3  大小写无所谓 <br>
+八进制以及表达方式：以0开头 011 就是十进制的9  注意：存以0开头的电话号码 电话号码要以字符串的形式存下来 如果不是以字符串的形式存下来，游览器会自动任务<br>这是一个以0 开头的八进制数字。 
+十六进制以及表达方式：以0X 开头  0x11 就是十进制的17<br>
 
 ### 2.2字符串
 字符串的转义：
@@ -55,31 +55,31 @@ string number symbol  undefined null object  boolean
 
 
 ### 2.3布尔值 
-true    or  false 
-与或非 运算 
-与运算（&&）： 两真才真
-或运算（||）：一真也行也算真 
+true    or  false <br>
+与或非 运算 <br>
+与运算（&&）： 两真才真<br>
+或运算（||）：一真也行也算真<br>
 
 
 ### 2.4 null and undefined 
-类型为null  值为：null 
-类型为undefined  值为： undefined 
-都表示 什么都没有 但是 还是有差异：
-第一：如果一个变量 没有被赋值   这个变量的值等于 undefined 
-第二：如果是一个对象  没有被赋值  这个对象的值等于 null;
-⚠️： 没有被赋值也分两种情况 ：第一种变量和对象根本没有值；
-                                                           第二种根据程序上下文来看，变量或者对象暂时还不需要被赋值；         
-一言以蔽之：null 表示空对象 undefined 表示空非对象
+类型为null  值为：null <br>
+类型为undefined  值为： undefined <br>
+都表示 什么都没有 但是 还是有差异：<br>
+第一：如果一个变量 没有被赋值   这个变量的值等于 undefined <br>
+第二：如果是一个对象  没有被赋值  这个对象的值等于 null;<br>
+⚠️： 没有被赋值也分两种情况 ：第一种变量和对象根本没有值；<br>
+                          第二种根据程序上下文来看，变量或者对象暂时还不需要被赋值;<br>        
+一言以蔽之：null 表示空对象 undefined 表示空非对象<br>
 
 
 
 ### 2.5 对象 
-什么是一个对象？ 
-怎么正确取得对象的属性？ 
-空字符串可以当对象的属性吗？ 
-怎么删除一个属性？
-怎么循环一个object 里面的所有属性？ 
-怎么知道一个变量的类型？ 
+什么是一个对象?<br> 
+怎么正确取得对象的属性?<br>
+空字符串可以当对象的属性吗？<br> 
+怎么删除一个属性?<br>
+怎么循环一个object 里面的所有属性？<br>
+怎么知道一个变量的类型？<br>
 
 ```
 var    name ='apple’；

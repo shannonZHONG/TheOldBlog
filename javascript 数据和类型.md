@@ -31,21 +31,22 @@ string number symbol  undefined null object  boolean <br>
               报错信息：Uncaught SyntaxError : Invalid or unexpected token；<br>
               那怎么表示 单引号？<br>
               方法一： var singlequotes = “ ‘  ” ；<br>
-              那怎么表示 一个单引号和一个双引号？<br>
+              如果继续用方法一 怎么表示 一个单引号和一个双引号？<br>
               显然方法一这个方法不能实现。<br>
-              那就只有引入 转义符号 来实现了。<br>
+              这个时候就需要引入 转义符号 来实现了。<br>
               var  a = ‘ \’ ‘; <br>
               这个斜杠告诉游览器 中间的单引号不是结束的引号 想要表达的就是一个单引号 ；<br>
               这个斜杠了就是转义符；<br>
               更多列子：<br>  
               var n = ‘  \n ‘  代表回车 <br>
-              Var b = ‘\\’ <br>  用转义符号来 转义 转义符 <br>
+              Var b = "\\" <br>  用转义符号来 转义 转义符 <br>
  多行字符串：不是字符串里有回车<br>
-              方法一：  var  s = ‘123456          \
+             多行字符串表达方式一：  var  s = ‘123456        \
                                  7890’;<br>
-             方法二：  var s2 = ‘12345’ + ‘67890’<br>
+             二：  var s2 = ‘12345’ + ‘67890’<br>
              相比较方法一 方法二更好 不容易造成误解 <br>
-             方法三： 用ES6  <br>
+             方法三： 用ES6  <br>    
+             
 ```
                var s4 =  `12345
                67890`;

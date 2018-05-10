@@ -39,7 +39,7 @@ string number symbol  undefined null object  boolean <br>
               这个斜杠就是转义符；<br>
               更多列子：<br>  
               var n = ‘  \n ‘  代表回车 <br>
-              Var b = ‘ \\   ’ ;   用转义符号来 转义 转义符 <br>
+              Var b = ‘\\’ ;   用转义符号来 转义 转义符 <br>
  多行字符串：不是字符串里有回车<br>
               方法一：  var  s = ‘123456          \
                                  7890’;<br>

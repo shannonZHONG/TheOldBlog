@@ -50,7 +50,7 @@ b=2;
 a;  
 ```
 
-![](value&ref1.jpg)
+![blog](value&ref1.jpg)
 
 ```
 //第二个例题

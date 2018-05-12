@@ -61,7 +61,7 @@ a.name;// 'a'
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+![blog](value&ref2.jpg)
 
 ```
 // 第三个例题
@@ -72,7 +72,7 @@ a.name// 'b'
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%9B%BE.jpg)
+![blog](value&ref3.jpg)
 
 
 ```
@@ -84,7 +84,7 @@ a.name// 'b'
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+![blog](value&ref4.jpg)
 
 
 ### 第二种   （画表格）
@@ -99,7 +99,7 @@ a.self.self.self;
 ```
 
 ⚠️：地址是随机的哦 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+![blog](value&ref5.jpg)
 
 
 ```
@@ -139,7 +139,7 @@ alert(b.x)// [object object] b所存数据的位置还是ADD 34
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+![blog](value&ref6.jpg)
 
 
 ## 1.3 垃圾回收 
@@ -156,7 +156,7 @@ console.log(a);// {name: "b"}
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+![blog](value&ref7.jpg)
 
 
 ## 1.4  内存泄漏

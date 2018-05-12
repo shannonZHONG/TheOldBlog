@@ -37,8 +37,8 @@ var a = 1；
 ### 第一种：（画图）
 Stack  heap<br>
 哪些值放入stack ：简单的值： number null  undefined <br>
-string  boolean symbol   简单的值 互相拷贝的话  互相传递的仅仅就是值(value)  <br>
-哪些值放入heap  复杂的值：像是object   复杂类的值 相互拷贝 的话 就不是传递值(value) 而是(reference) 引用对方的地址  <br> 
+string  boolean symbol 互相拷贝的话  仅仅就是值(value)  <br>
+哪些值放入heap  复杂的值：像是object 相互拷贝的话 就不是传递值(value) 而是(reference) 引用对方的地址  <br> 
 一句话就是  **存对方的地址** <br>
 function 和array  也是属于object <br>
 

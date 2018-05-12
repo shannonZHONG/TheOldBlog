@@ -50,7 +50,7 @@ b=2;
 a;  
 ```
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%9B%BE.jpg)
+![](value&ref1.jpg)
 
 ```
 //第二个例题

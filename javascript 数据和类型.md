@@ -26,26 +26,26 @@ string number symbol  undefined null object  boolean <br>
 ### 2.2字符串
 字符串的转义：
 例如： var  singlequotes = ‘ ‘ ‘ ; <br>
-             这样写游览器不会认为 你要表示的是 单引号 <br>
-              游览器 会这样 断句： var  a   = ‘’    ‘ <br>
-              报错信息：Uncaught SyntaxError : Invalid or unexpected token；<br>
-              那怎么表示 单引号？<br>
-              方法一： var singlequotes = “ ‘  ” ；<br>
-               如果继续用方法一 怎么表示 一个单引号和一个双引号？<br>
-              显然方法一这个方法不能实现。<br>
-              这个时候就需要引入 转义符号 来实现了。<br>
-              var  a = ‘ \’ ‘; <br>
-             这个斜杠告诉游览器 中间的单引号不是结束的引号 想要表达的就是一个单引号 ；<br>
-              这个斜杠了就是转义符；<br>
-              更多列子：<br>  
-              代表回车  var n = ‘  \n ‘ <br>
-              用转义符号来 转义 转义符 Var b = "\\"<br>
- 多行字符串：不是字符串里有回车<br>
-               多行字符串表达方式一：  var  s = ‘123456        \
+           这样写游览器不会认为 你要表示的是 单引号 <br>
+           游览器 会这样 断句： var  a   = ‘’    ‘ <br>
+           报错信息：Uncaught SyntaxError : Invalid or unexpected token；<br>
+           那怎么表示 单引号？<br>
+           方法一： var singlequotes = “ ‘  ” ；<br>
+           如果继续用方法一 怎么表示 一个单引号和一个双引号？<br>
+           显然方法一这个方法不能实现。<br>
+           这个时候就需要引入 转义符号 来实现了。<br>
+           var  a = ‘ \’ ‘; <br>
+           这个斜杠告诉游览器 中间的单引号不是结束的引号 想要表达的就是一个单引号 ；<br>
+           这个斜杠了就是转义符；<br>
+           更多列子：<br>  
+           代表回车  var n = ‘  \n ‘ <br>
+           用转义符号来 转义 转义符 Var b = "\\"<br>
+           多行字符串：不是字符串里有回车<br>
+           多行字符串表达方式一：  var  s = ‘123456        \
                                  7890’;<br>
-             二：  var s2 = ‘12345’ + ‘67890’<br>
-             相比较方法一 方法二更好 不容易造成误解 <br>
-             方法三： 用ES6  <br>    
+           表达方式二：  var s2 = ‘12345’ + ‘67890’<br>
+           相比较方法一 方法二更好 不容易造成误解 <br>
+           表达方式方法三： 用ES6  <br>    
              
 ```
                var s4 =  `12345
@@ -210,8 +210,7 @@ obj+""
 (1).toSting() + '1';
 "11";
 ```
-
-         还有其他简单的方法把 对象 数字 布尔值 null undefined  变为字符串吗？ 有  <br>
+还有其他简单的方法把 对象 数字 布尔值 null undefined  变为字符串吗？ 有  <br>
 
 ```
 var n = 1;

@@ -31,17 +31,17 @@ string number symbol  undefined null object  boolean <br>
               报错信息：Uncaught SyntaxError : Invalid or unexpected token；<br>
               那怎么表示 单引号？<br>
               方法一： var singlequotes = “ ‘  ” ；<br>
-              如果继续用方法一 怎么表示 一个单引号和一个双引号？<br>
+               如果继续用方法一 怎么表示 一个单引号和一个双引号？<br>
               显然方法一这个方法不能实现。<br>
-              这个时候就需要引入 转义符号 来实现了。<br>
+              这个时候就需要引入 转义符号 来实现了。<br>
               var  a = ‘ \’ ‘; <br>
-              这个斜杠告诉游览器 中间的单引号不是结束的引号 想要表达的就是一个单引号 ；<br>
-              这个斜杠了就是转义符；<br>
+             这个斜杠告诉游览器 中间的单引号不是结束的引号 想要表达的就是一个单引号 ；<br>
+              这个斜杠了就是转义符；<br>
               更多列子：<br>  
               代表回车  var n = ‘  \n ‘ <br>
               用转义符号来 转义 转义符 Var b = "\\"<br>
  多行字符串：不是字符串里有回车<br>
-             多行字符串表达方式一：  var  s = ‘123456        \
+               多行字符串表达方式一：  var  s = ‘123456        \
                                  7890’;<br>
              二：  var s2 = ‘12345’ + ‘67890’<br>
              相比较方法一 方法二更好 不容易造成误解 <br>
@@ -147,4 +147,149 @@ function f(){
 }
 typeof f; //'function' 
 
+```
+
+
+##  3.0类型转换
+###    3.1 number 变 string  用内置的API 
+```
+ var n=1;
+ n.toSting();//"1"
+// 除了用内置API 变string 还可以用braket notation 这一特性 
+var testObj = {};
+testObj['testName'] = test;
+testObj[1] = test;
+testObj;//{1: 2, testName: 1}
+// 1 + ""  与空字符串相加 
+"1"
+```   
+
+###  3.2 boolean 变 string  用内置的API 
+```
+var b = true；
+b.toString();//"true" 
+// 与空字符串相加 
+true + ""
+"true"
+```
+    
+### 3.3 null 变 string 用内置API 会报错 
+```
+var b = null；
+b.toString();// Uncaught TypeError: Cannot read property"toString" of null 
+// ''+null 与空字符串相加
+"null"
+```
+
+### 3.4  undefined 变 string  用内置API 会报错 
+
+```
+var b = undefined；
+b.toString()//Uncaught TypeError: Cannot read property"toString" of undefined  
+// " " +undefined  与空字符串相加 
+" undefined"
+```
+
+### 3.5 object 变 string  用内置API 但结果并非所预期的那样
+
+```
+var b = {test:'toString'};
+b.toString();// [object Object]
+// 
+obj+""
+// [object Object]
+```
+
+⚠️： 以上的类型都可以 （除去obj）用加号 转换成为 字符串 <br> 
+          为什么呀？<br>
+          加号只要发现任一一边有字符串 也会把另外一边变成字符串 <br>
+```
+1 + ‘1’
+“11”； // 这两行代码不好 违背了常识 不同类型的怎么能够相加了？
+// 改写一下 
+(1).toSting() + '1';
+"11";
+```
+
+         还有其他简单的方法把 对象 数字 布尔值 null undefined  变为字符串吗？ 有  <br>
+
+```
+var n = 1;
+window.String(1)
+"1";
+window.String(true)
+"true";
+window.String(null)
+"null";
+window.String(undefined)
+"undefined";   
+var obj = {test:'toString'};
+window.String(obj);
+"[object Object]" 
+```
+ 
+### 3.6 数字 字符串 null undefined 对象 变为布尔值 
+
+```
+// 方法一：
+Boolean(1);
+ture;
+Boolean(0);
+false;
+Boolean("");//空字符串
+false;
+Boolean(' ');//空格
+true;
+Boolean(null);
+false;
+Boolean(undefined);
+false;
+Boolean({});
+true;
+Boolean{test:'toString'};
+true;
+// 方法二：
+!true;
+false;
+!!true;
+true;
+!!1;
+true;
+!! 0;
+false;
+!!'   ';
+true;
+!!{};
+true;
+!!{test:'toString'}
+true;
+!!null;
+false;
+!![];
+true;
+!!function(){}
+true;
+```
+
+记少不记多<br> 
+真值太多了<br>
+ falsy 值不多 5个  <br> 
+```
+// 
+0 NAN “” null undefined 
+```
+
+
+### 3.7字符串变数字 
+```
+Number('1');
+1;
+parseInt('1000',2); // 变二进制 parse 是逐个解析 
+8; 
+parseFloat('1.23);
+1.23 
+'1'-0;
+1;
++ ‘1’；
+1;
 ```

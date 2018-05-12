@@ -50,7 +50,7 @@ b=2;
 a;  
 ```
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%9B%BE.jpg)
+
 
 ```
 //第二个例题
@@ -61,7 +61,7 @@ a.name;// 'a'
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+
 
 ```
 // 第三个例题
@@ -72,10 +72,7 @@ a.name// 'b'
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%9B%BE.jpg)
 
-
-```
 // 第四个例题
  var a = {name:'a'}
  var b =a;
@@ -84,7 +81,7 @@ a.name// 'b'
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+
 
 
 ### 第二种   （画表格）
@@ -99,7 +96,6 @@ a.self.self.self;
 ```
 
 ⚠️：地址是随机的哦 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
 
 
 ```
@@ -139,7 +135,7 @@ alert(b.x)// [object object] b所存数据的位置还是ADD 34
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+
 
 
 ## 1.3 垃圾回收 
@@ -156,7 +152,7 @@ console.log(a);// {name: "b"}
 ```
 
 
-![](JavaScript%EF%BC%88%E5%80%BC%EF%BC%89value%20&%20%EF%BC%88%E5%BC%95%E7%94%A8%EF%BC%89reference/%E6%88%AA%E5%B1%8F.jpg)
+
 
 
 ## 1.4  内存泄漏

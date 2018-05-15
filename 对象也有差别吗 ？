@@ -1,1 +1,97 @@
 
+#  对象 还有差别吗？
+有的  
+
+## 1.0 名字 ：
+ECMAScript 规定全局函数叫做 ：   global   
+在游览器里全局对象有专用名字：   **window**  
+
+## 2.0 属性：
+也分两种：
+ECMA Script 规定的  例如
+
+```
+global.parseInt
+global.parseFloat
+global.Number
+
+```
+
+游览器独有的属性： 
+
+```
+// 弹框提示
+window.alert("hi");
+//用户填写
+a=window.prompt("填写")
+//确认
+window.confirm("确认")
+//填写 
+window.console.log('hi');
+// document (dom)
+window.document
+```
+
+
+## 一个简单的数字 都可以有property 简单的数字又不是对象 怎么可能 ？
+ 
+当然可以了。
+
+```
+//两种方式声明一个简单的数字 
+var n = 1;// 1 是 简单数字
+var v = new Number(1);// 1 是一个对象 
+```
+
+如果是一个对象的话 就可以使用很多游览器自带的API ie： toString等
+
+可是
+```
+var n = 1；
+n.toString();
+"1";
+```
+
+为什么一个简单的数字 都可以用toString 游览器内置API toString？
+
+因为  有临时对象产生    请看图 
+
+![](%E5%AF%B9%E8%B1%A1%20%E8%BF%98%E6%9C%89%E5%B7%AE%E5%88%AB%E5%90%97%EF%BC%9F/%E6%88%AA%E5%B1%8F.jpg)
+
+**临时对象的使命完成之后，就自动被游览器当成垃圾收走了。所以，存活的时间取决于n.tostring什么时候被游览器执行完**
+
+临时对象 被收走之后  请看图 一点痕迹都没有留下 
+
+![](%E5%AF%B9%E8%B1%A1%20%E8%BF%98%E6%9C%89%E5%B7%AE%E5%88%AB%E5%90%97%EF%BC%9F/%E6%88%AA%E5%B1%8F2.jpg)
+ 
+ var n = new Number()  这个语法就很少被人使用 
+因为已经有一个简单的方法  可以用所有的 只有复杂对象 才能用的 属性 
+
+例题：
+
+```
+var n = 1；
+n.xxx = 2;
+console.log(n.xxx)//undefined； 
+```
+
+画图解题：
+
+![](%E5%AF%B9%E8%B1%A1%20%E8%BF%98%E6%9C%89%E5%B7%AE%E5%88%AB%E5%90%97%EF%BC%9F/%E6%88%AA%E5%B1%8F2.jpg)
+
+ 
+![](%E5%AF%B9%E8%B1%A1%20%E8%BF%98%E6%9C%89%E5%B7%AE%E5%88%AB%E5%90%97%EF%BC%9F/%E6%88%AA%E5%B1%8F.jpg)
+
+
+## 一个简单的字符串也可以有属性吗？
+当然可以了 。
+again。 因为有临时内存。 
+
+
+```
+// 两种方式 声明字符串 
+var test = “test”；//一个简单的
+
+var s2 = new String(test);
+
+```

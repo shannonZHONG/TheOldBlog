@@ -19,8 +19,8 @@ console.log(c===d)
 true;
 ```
 
-一个是false  一个是 true？可是赋值都是一样的呀<br>
- why?<br>
+上面代码中一个是false  一个是 true？可是赋值都是一样的呀<br>
+why?<br>
 涉及到的概念 ：<br>
 计算机是怎么存储人类写的代码的 <br>
 
@@ -34,7 +34,7 @@ var a = 1；
 有两种模型可以使用：<br>
 
 
-### 第一种：（画图）
+### 1.0.1第一种：（画图）
 Stack  heap<br>
 哪些值放入stack ：简单的值： number null  undefined <br>
 string  boolean symbol 互相拷贝的话  仅仅就是值(value)  <br>
@@ -87,7 +87,7 @@ a.name// 'b'
 ![blog](value&ref4.jpg)
 
 
-### 第二种   （画表格）
+### 1.0.2第二种   （画表格）
 同样的题目 不同的模型 
 
 

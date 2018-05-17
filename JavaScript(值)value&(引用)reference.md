@@ -88,6 +88,7 @@ a.name// 'b'
 
 
 ### 1.0.2第二种   （画表格）
+
 与第一种方法相比， 第二种方法需要一个前提： 假设  地址 是一个新的数据type，就像是string number 一样 primitive type。 
 
 ```
@@ -97,39 +98,13 @@ b={name:'b'};
 a.name;// 'a'
 ```
  
-variable     value              address              object
-a                  <#330>           #330                {name:’a’}<br>
-b                  <#330>          #330                 {name:’a’} (会被游览器回收 ）<br>
-                     <#331>          #331                 {name:’b’}<br>
-
-
-
-
-```
-var a = {name:'a'}
-var b = a;
-b.name = 'b';
-a.name// 'b'
-```
-
-variable     value              address              object
-a                  <#330>           #330                {name:’a’}<br>
-b                  <#330>           #330                 {name:’b’}<br>                   
-
-
-```
- var a = {name:'a'}
- var b =a;
- b = null;
- a; // {name:'a'};
-```
-
-variable     value              address              object
-a                  <#330>           #330                {name:’a’}<br>
-b                  <#330>          #330                 {name:’b’}(会被游览器回收 ）<br>
-                   <#331>          #331                 {null}<br>
-                     
- 
+variable      value              address              object
+- - - -
+a                  <#330>           #330                {name:’a’}
+- - - -
+B                  <#330>          #330                 {name:’a’} (会被游览器回收 ）
+- - - -
+                   <#331>          #331                 {name:’b’}
 
 
 ## 1.1 循环引用 

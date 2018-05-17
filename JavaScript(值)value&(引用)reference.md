@@ -98,9 +98,9 @@ a.name;// 'a'
 ```
  
 variable     value              address              object
-a                  <#330>           #330                {name:’a’}
-b                  <#330>          #330                 {name:’a’} (会被游览器回收 ）
-                     <#331>          #331                 {name:’b’}
+a                  <#330>           #330                {name:’a’}<br>
+b                  <#330>          #330                 {name:’a’} (会被游览器回收 ）<br>
+                     <#331>          #331                 {name:’b’}<br>
 
 
 
@@ -113,8 +113,8 @@ a.name// 'b'
 ```
 
 variable     value              address              object
-a                  <#330>           #330                {name:’a’}
-b                  <#330>          #330                 {name:’b’}                   
+a                  <#330>           #330                {name:’a’}<br>
+b                  <#330>           #330                 {name:’b’}<br>                   
 
 
 ```
@@ -125,10 +125,10 @@ b                  <#330>          #330                 {name:’b’}
 ```
 
 variable     value              address              object
-a                  <#330>           #330                {name:’a’}
-b                  <#330>          #330                 {name:’b’}(会被游览器回收 ）
-
-                     <#331>          #331                 {null}
+a                  <#330>           #330                {name:’a’}<br>
+b                  <#330>          #330                 {name:’b’}(会被游览器回收 ）<br>
+                   <#331>          #331                 {null}<br>
+                     
  
 
 

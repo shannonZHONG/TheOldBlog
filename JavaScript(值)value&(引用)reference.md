@@ -103,8 +103,7 @@ variable      value              address              object
 a                  <#330>           #330                {name:’a’}
 - - - -
 B                  <#330>          #330                 {name:’a’} (会被游览器回收 ）
-- - - -
-                   <#331>          #331                 {name:’b’}
+- - - -            <#331>          #331                 {name:’b’}
 
 
 ## 1.1 循环引用 

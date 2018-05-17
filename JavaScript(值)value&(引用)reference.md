@@ -36,10 +36,9 @@ var a = 1；
 
 ### 1.0.1第一种：（画图）
 Stack  heap<br>
-哪些值放入stack ：简单的值： number null  undefined <br>
-string  boolean symbol 互相拷贝的话  仅仅就是值(value)  <br>
+哪些值放入stack ：简单的值： string number null  undefined <br>
+string  boolean symbol等 互相拷贝的话  仅仅就是值(value)  <br>
 哪些值放入heap  复杂的值：像是object 相互拷贝的话 就不是传递值(value) 而是(reference) 引用对方的地址  <br> 
-一句话就是  **存对方的地址** <br>
 function 和array  也是属于object <br>
 
 ```
@@ -90,6 +89,7 @@ a.name// 'b'
 ### 1.0.2第二种   （画表格）
 
 与第一种方法相比， 第二种方法需要一个前提： 假设  地址 是一个新的数据type，就像是string number 一样 primitive type。 
+相比画图 需要的纸张不会那么多。
 
 ```
 var a = {name: 'a'};

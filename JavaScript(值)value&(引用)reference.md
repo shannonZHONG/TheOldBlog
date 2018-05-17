@@ -101,7 +101,7 @@ variable      value              address              object
 - - - -
 a                  <#330>           #330                {name:’a’}
 - - - -
-B                  <#330>          #330                 {name:’a’} (会被游览器回收 ）
+B                  <#330>          #330                 {name:’a’} (会被游览器回收 ）<br>
                    <#331>          #331                 {name:’b’}
 
 

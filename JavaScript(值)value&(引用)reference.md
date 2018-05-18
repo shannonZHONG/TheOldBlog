@@ -13,13 +13,13 @@ console.log(c===d)
 false;
 
 // var c 和 d 要绝对相等的话 
-var c = {name:"testObject"}
-var d = c;
-console.log(c===d)
+var c1= {name:"testObject"}
+var d1= c1;
+console.log(c1===d1)
 true;
 ```
 
-上面代码中一个是false  一个是 true？可是赋值都是一样的呀<br>
+上面代码中一个是false  一个是 true？可 变量 cd 和 ab 赋值分别一样<br>
 why?<br>
 涉及到的概念 ：<br>
 计算机是怎么存储人类写的代码的 <br>

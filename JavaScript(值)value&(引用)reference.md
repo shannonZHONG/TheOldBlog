@@ -97,11 +97,32 @@ b=a;
 b={name:'b'};
 a.name;// 'a'
 ```
-| variable       | value   |  address  |  |object|
-    | --------   | -----:   | :----: |
-    | a       | <#330>    |   330   |  {name:'a'}    |
-    | b       | <#330>    |   330   |  {nmae:'a'}    |
-    |         | <#331>    |   331   |  {name:'b'}    |
+<table>
+        <tr>
+            <th>variable</th>
+            <th>value</th>
+            <th>address</th>
+            <th>object</th>
+        </tr>
+        <tr>
+            <th>a</th>
+            <th><#330></th>
+            <th>330</th>
+            <th>{name:"a"}</th>
+        </tr>
+        <tr>
+            <th>b</th>
+            <th><#330></th>
+            <th>330</th>
+            <th>{name:"a"}</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><#331></th>
+            <th>331</th>
+            <th>{name:'b'}/</th>
+        </tr>
+    </table>
 
 
 ## 1.1 循环引用 

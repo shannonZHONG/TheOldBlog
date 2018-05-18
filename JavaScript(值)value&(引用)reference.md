@@ -120,7 +120,7 @@ a.name;// 'a'
             <th></th>
             <th><#331></th>
             <th>331</th>
-            <th>{name:'b'}/</th>
+            <th>{name:'b'}</th>
         </tr>
     </table>
 

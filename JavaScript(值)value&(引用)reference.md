@@ -88,7 +88,7 @@ a.name// 'b'
 
 ### 1.0.2第二种   （画表格）
 
-与第一种方法相比， 第二种方法需要一个前提： 假设  地址 是一个新的数据type，就像是string number 一样 primitive type。 
+与第一种方法相比， 第二种方法需要一个前提： 假设  地址 是一个新的数据type，就像是string number 一样 primitive type.<br> 
 相比画图 需要的纸张不会那么多。
 
 ```

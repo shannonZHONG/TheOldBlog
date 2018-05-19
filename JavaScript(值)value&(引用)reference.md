@@ -19,7 +19,7 @@ console.log(c1===d1)
 true;
 ```
 
-上面代码中一个是false  一个是 true？可 变量 cd 和 ab 赋值分别一样<br>
+以上代码中 结果分别是：一个是false  一个是 true 但 变量 cd 和 ab 赋值分别一样<br>
 why?<br>
 涉及到的概念 ：<br>
 计算机是怎么存储人类写的代码的 <br>

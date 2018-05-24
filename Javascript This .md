@@ -1,7 +1,7 @@
 
 # this   
 
-## 为什么需要this？
+## 1.0为什么需要this？
 
 ```
     var person = {
@@ -26,7 +26,7 @@
 
 
 
-## This 的值是由什么决定的
+## 2.0This 的值是由什么决定的
 巴蜀地区有很多好吃的，你这次去这些地方要少吃一点。 
 南粤地区有很多好吃的，你这次去这些地方要少吃一点。 
 这次去这些地方 在第一句话中 指代的时巴蜀地区 。
@@ -85,12 +85,12 @@ true
 ```
 
 
-## 怎么改变this 的指向？
+## 3.0怎么改变this 的指向？
 如果需要改变this 的context ，可以调用  function call () 
 apply() bind() 。
 
 
 参考链接：
-[一次说清楚 this](https://zhuanlan.zhihu.com/p/23804247?refer=study-fe)
-[this 关键字 — JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/oop/this.html)
-[JavaScript’s this: how it works, where it can trip you up](http://2ality.com/2014/05/this.html)
+[一次说清楚 this](https://zhuanlan.zhihu.com/p/23804247?refer=study-fe)<br>
+[this 关键字 — JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/oop/this.html)<br>
+[JavaScript’s this: how it works, where it can trip you up](http://2ality.com/2014/05/this.html)<br>

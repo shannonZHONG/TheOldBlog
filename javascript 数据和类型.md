@@ -1,5 +1,5 @@
-# javaScript 的数据和类型
-## 1.0 JavaScript 的各个版本和新名字由来  
+# 数据和类型
+## 1.0 JS 的各个版本和新名字由来  
 ES3： 最早的JavaScript 版本 <br>
 ES5： 相对于ES3  有改变 但不多 <br> 
 ES6 ：有很多重要的改变   同时还有另外一种名字ECMA2015<br>

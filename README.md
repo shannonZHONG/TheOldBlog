@@ -1,4 +1,4 @@
 # blog
 object:learn-build-teach
 
-update to date 
+Look at!  Js “face” @_@

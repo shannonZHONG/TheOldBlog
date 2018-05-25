@@ -1,4 +1,4 @@
-# JavaScript（值）value & （引用）reference 
+# value & （引用）reference 
 
 ## 1.0  两种简单的模型  
 ```

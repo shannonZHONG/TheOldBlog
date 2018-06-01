@@ -95,7 +95,7 @@ true
 apply() bind() 。<br>
 
 
-参考链接：
-[一次说清楚 this](https://zhuanlan.zhihu.com/p/23804247?refer=study-fe)<br>
-[this 关键字 — JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/oop/this.html)<br>
-[JavaScript’s this: how it works, where it can trip you up](http://2ality.com/2014/05/this.html)<br>
+参考链接：<br>
+方应杭，[一次说清楚 this](https://zhuanlan.zhihu.com/p/23804247?refer=study-fe)<br>
+阮一峰，[this 关键字 — JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/oop/this.html)<br>
+Dr.Axel Rauschmayer[JavaScript’s this: how it works, where it can trip you up](http://2ality.com/2014/05/this.html)<br>

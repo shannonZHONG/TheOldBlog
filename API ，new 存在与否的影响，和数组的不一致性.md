@@ -84,6 +84,6 @@ var b = Array(3,3);
 Javascript的不一致性，或者说 这是 javascript 不被喜爱的地方之一 。 <br>
 
 ### 1.0.6总结一下： 
-如果是Javascript 的简单数据类型： number ，string ， boolean 。<br>  
-有没有new 这个关键词 ,差别很大 。 < br>
-如果是Javascript 的复杂数据类型：array ，function。 有没有 new 这个关键词 没有差别。 <br>
+如果是Javascript 的简单数据类型：number,string,boolean。<br>  
+有没有new 这个关键词 ,差别很大. <br>
+如果是Javascript 的复杂数据类型：array ，function。 有没有 new 这个关键词 没有差别。<br>

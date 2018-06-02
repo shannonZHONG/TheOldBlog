@@ -34,7 +34,7 @@
 换一种说法：<br>
 申明一个数组以下两种方式都是可以的。 <br>
 
-![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/Learn_Modern_JavaScript.jpg)
+![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/APINew1.jpg)
 
 ####  1.0.5.1 Array之构造函数：
 
@@ -52,16 +52,16 @@ var a = Array(3);
 为什么a 没有 0 1 2 3 ？<br>
 完整代码见下图：<br>
 
-![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/Learn_Modern_JavaScript.jpg)
+![blog](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/APINEW2.jpg)
 
 原因见图：<br>
 
-![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/%E5%86%99%E4%BB%A3%E7%A0%81%E5%95%A6%EF%BC%81.jpg)
+![blog](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/%E5%86%99%E4%BB%A3%E7%A0%81%E5%95%A6%EF%BC%81/APINew3.jpg)
 
 如图所示：变量 a （或者说数组a ）存的不是一个值 ，而是一个地址 。地址是随机的，暂定址是99。 在地址99里面 ，为什么会有length 的属性？ 甚至还会有 Array.push 的push 的属性 等？ 这些属性都不是用户自己定义的？ 原因是原型的存在。见下图： <br>
 数组a 继承了 Array 里面所有的属性或者说 Array构造数组a 。 <br>
  
-![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/Learn_Modern_JavaScript.jpg)
+![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/APINew4.jpg)
 
 回到问题： a 为什么没有存下0 1 2 3 这几个key？ 第一：原型里没有； 第二： 用户自己也没有对这个属性进行定义。<br>
 
@@ -72,7 +72,7 @@ var a = Array(3);
 var b = Array(3,3);
 ```
 
-![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/Learn_Modern_JavaScript.jpg)
+![](API%20%EF%BC%8Cnew%20%E5%AD%98%E5%9C%A8%E4%B8%8E%E5%90%A6%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%92%8C%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7/APINew5.jpg)
 
 为什么传入的参数个数不一样，结果就不一样？ <br>
 Javascript的不一致性，或者说 这是 javascript 不被喜爱的地方之一 。 <br>

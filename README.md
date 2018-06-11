@@ -2,6 +2,8 @@
 object:learn-build-teach
 
 Look at!  Js “face” @_@
+==============================================
+
 
 1.value and reference done  <br>
 2.API new存在与否的影星 以及数组的不一致性<br>  

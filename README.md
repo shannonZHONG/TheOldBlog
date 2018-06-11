@@ -21,7 +21,7 @@ Look at!  Js “face” @_@
 14 排序还是蛮重要的<br>
 15 Data and type Done<br> 
 16 Array Done <br>  
-17计算机识别代码能和人一样吗？ <br>
+17计算机识存数据和人记忆事物是一样吗？ <br>
 18 闭包，你绕不过的知识点<br>
-
+19 css乱入之一 css的小技巧 归纳
 

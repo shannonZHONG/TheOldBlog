@@ -1,5 +1,5 @@
 
-# this   
+# This   
 
 ## 1.0为什么需要this？
 
@@ -103,7 +103,8 @@ true
 
 ## 3.0怎么改变this 的指向？
 如果需要改变this 的context<br>
-可以调用function call () <br>
+可以调用：<br>
+function call () <br>
 function apply() <br>
 function bind() <br>
 

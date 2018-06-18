@@ -3,28 +3,37 @@
 
 ## 1.0为什么需要this？
 
+同一段代码有this 和没有this 的差别 
+
 ```
-    var person = {
-
-    firstName: “test”,
-
-    lastName: “test test ”,
-
+// 有this 
+ var person = {
+    firstName: "Penelope",
+    lastName: "Barrymore",
     fullName: function () {
-        console.log(this.firstName + “ “ + this.lastName);
+        // 有this：
+        console.log(this.firstName + " " + this.lastName)；
+    }
+}    
+// 调用这个fullName：
+person.fullName();
+===============================================================
+// 没有this：
+ var person = {
+    firstName: "Penelope",
+    lastName: "Barrymore",
+    fullName: function (person) {
+        // 无this：
+        console.log(person.firstName + " " + person.lastName)
+    }
+}    
 
-    ​//如果没有this 的话 还可以这样写 
-    //但这样写的话  如果在全局函数中也有person这个变量名 
-    //那么在获取firstName的值就会去gloabl scope 里的
-    //person里找 这样的话会导致非常难找出错误的地方  
-      console.log(person.firstName + “ “ + person.lastName);
+// 调用这个fullName：
+person.fullName(person)
 
-}
-
-}
 ```
-
-
+用this的原因：<br>
+如果在这一段代码之前还有 重名的 person ，那么你此时在调用这个person，就会出错误。不仅仅出错，还有很难找出bug.<br>
 
 ## 2.0This 的值是由什么决定的
 巴蜀地区有很多好吃的，你这次去这些地方要少吃一点。<br> 
@@ -49,6 +58,8 @@ this  在javascript里面也会随着场景（context） 的变化而变化 <br>
 例子1： 
 this 的值是window<br>
 或者说 this 指向 window <br>
+注意：下列代码不是在严格模式下被执行<br>
+
 ```
  var  test = function(){
   console.log(this);
@@ -91,8 +102,10 @@ true
 
 
 ## 3.0怎么改变this 的指向？
-如果需要改变this 的context ，可以调用  function call () <br>
-apply() bind() 。<br>
+如果需要改变this 的context<br>
+可以调用function call () <br>
+function apply() <br>
+function bind() <br>
 
 
 参考链接：<br>

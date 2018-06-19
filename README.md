@@ -25,5 +25,5 @@ Look at!  Js “face” @_@
 18.闭包，你绕不过的知识点 almost done <br>
 19.css乱入之: css的小技巧 归纳 Done  <br>
 20.css乱入之： 
-21Jq知识点归纳
-22自制JQ 
+21Jq知识点归纳<br>
+22自制JQ<br>

@@ -13,7 +13,7 @@ Look at!  Js “face” @_@
 6.谜一样的this done <br>  
 7.let const  done <br>
 8.call apply bind<br>
-9.node.js 入门 almost  <br>
+9.node.js 入门  <br>
 10.functio done <br>
 11.prototype and prototype chain Done  <br>  
 12.object or Object ? Done <br>  

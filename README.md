@@ -9,7 +9,7 @@ Look at!  Js “face” @_@
 2.API new存在与否的影星 以及数组的不一致性 Done <br>  
 3.DOM  done <br>
 4.ForEach   <br>
-5.http almost  <br>
+5.http  <br>
 6.谜一样的this done <br>  
 7.let const  done <br>
 8.call apply bind<br>

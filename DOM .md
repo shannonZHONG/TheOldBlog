@@ -4,7 +4,7 @@ Dom
 英文全称：document object model<br>
 每一个单词的意思：<br>
 从DOM 是一颗树来看：<br>
-document： 是由节点们组成的文档并且这些节点最后组成一棵树。<br>
+document： 是由节点们组成的文档并或者说节点最后组成一棵树。<br>
 object： 每一个标签都有自己的名字，种类，等属性。 有N 多属性 的这样的一个标签存放在object里面 。<br>
 model： document里面每一个标签对应 一个自己的object  这种映射的关系叫做 model <br>
 那么怎么实现 CURD 对这些节点？ <br>
@@ -23,7 +23,7 @@ model： document里面每一个标签对应 一个自己的object  这种映射
 
 ### 2.0.1  7种类型的属性和方法来自哪里？
 原生的节点对象： Node  <br>
-就像是 游览器提供Array API等。只要是 array 欧可以继承Array API 的属性和方法一样。<br>
+就像是 游览器提供Array API等。只要是 array 可以继承Array API 的属性和方法一样。<br>
 
 ### 2.0.2  如果DOM 是一棵树， 那么怎么定位节点在哪里？
 the “king ” of Dom：  html   < br>
@@ -43,7 +43,7 @@ root node  ： html  <br>
 
 ### 2.0.4 关于node 接口 常用属性  
 #### 2.0.4.1 childNodes 
- 不仅仅是包含了 字节点 而且还包含了 文本节点 <br>
+ 不仅仅是包含了 子节点 而且还包含了 文本节点 <br>
 ```
 <html>
 <body>

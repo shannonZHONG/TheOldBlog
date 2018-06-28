@@ -8,8 +8,8 @@
 ```
 // 有this 
  var person = {
-    firstName: "firstName",
-    lastName: "LastName",
+    firstName: "apple",
+    lastName: "apple",
     fullName: function () {
         // 有this：
         console.log(this.firstName + " " + this.lastName)；
@@ -20,8 +20,8 @@ person.fullName();
 ===================我是没有this的分割线========================================================================================
 
  var person = {
-    firstName: "firstName",
-    lastName: "LastName",
+    firstName: "apple",
+    lastName: "apple",
     fullName: function (person) {
         // 无this：
         console.log(person.firstName + " " + person.lastName)

@@ -1,7 +1,4 @@
-# 一颗生长在 游览器的“🌲” Dom  
-#API之DOM
-
-参考下 老师出的题目 
+Dom  
 
 ## 1.0 什么是Dom？ 
 英文全称：document object model<br>

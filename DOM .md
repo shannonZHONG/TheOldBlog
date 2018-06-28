@@ -26,11 +26,9 @@ model： document里面每一个标签对应 一个自己的object  这种映射
 就像是 游览器提供Array API等。只要是 array 可以继承Array API 的属性和方法一样。<br>
 
 ### 2.0.2  如果DOM 是一棵树， 那么怎么定位节点在哪里？
-the “king ” of Dom：  html   < br>
-换一种说法： <br>
 root node  ： html  <br>
 除根节点，每一个节点与另外节点都有三种关系：<br>
-举例： <br>
+举例：<br>
 每一个节点名字：apple <br>
 * 父节点（parentNode）： apple 直接对应的上级节点 <br>
 * 字节点（childNodes）：apple 直接下级节点 <br>

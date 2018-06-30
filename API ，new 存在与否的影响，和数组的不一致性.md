@@ -1,5 +1,5 @@
 # API ，new 存在与否的影响，和数组的不一致性 
-需要添加代码
+
 ## 1.0API：
 什么是API：游览器提供的东西 。<br>
 就像是 Object  String Number Boolean Array 等 ，都是API。< br>

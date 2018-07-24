@@ -1,6 +1,6 @@
-# blog
+# blog 
  
- 博文✏️：
+ 博文✏️“骨骼”如下：<br>
  phase 1 基础 <br>
  
  第一篇：closure<br> 

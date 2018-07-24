@@ -14,9 +14,9 @@
  第三篇：prototype and __proto__<br>
  
  第四篇：Function <br>
- call apply bind 
- for each for in 
- map 
+ call apply bind <br>
+ for each for in <br>
+ map <br>
  
  第五篇：Object<br>
  value and reference <br>

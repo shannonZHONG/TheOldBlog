@@ -26,7 +26,7 @@
  
  第五篇：Object<br> 
  value and reference <br>
- 理论加上test 最后 延伸到 内存泄漏  游览器内核<br>
+ 理论 加上test 最后 延伸到 内存泄漏  游览器内核<br>
  
 
  第七篇：type and value 
@@ -75,7 +75,7 @@
  第二十二篇 第二十三篇  第三十二篇：react.js  <br>
  第二十四篇 第二十五篇 ：vue.js  <br>
  第二十八篇 第二十九篇 ：JQ<br>
- 第三十篇 第三十一篇react native  小程序 <br> 
+ 第三十篇 第三十一篇react native   <br> 
  
  
  

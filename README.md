@@ -31,6 +31,7 @@
 
  第七篇：type and value 
  理论 加上 test <br>
+ array string number null undefined <br>
  这个也需要和原形链 联系起来 <br>
  
  第八篇 moudule <br>
@@ -69,6 +70,7 @@
  从输入网址之后 发生了什么？<br>
  
  typeScript<br>
+
  
  
  phase 2 ： 框架 <br>

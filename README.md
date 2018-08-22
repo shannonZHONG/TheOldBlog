@@ -25,9 +25,6 @@
 
  
  第五篇：Object<br> 
- value and reference <br>
- 理论 加上test 最后 延伸到 内存泄漏  游览器内核<br>
- 
 
  第七篇：type and value 
  理论 加上 test <br>
@@ -69,7 +66,15 @@
  还有一些 关于 游览器存储数据的 东东 需要写博文  <br> 
  从输入网址之后 发生了什么？<br>
  
- typeScript<br>
+ 其他：
+ value and reference : 
+ 第一：计算机是怎么存储数据的  
+ 第二：stack and heap 
+ 第三：延伸 ？
+ 
+ 
+
+typeScript<br>
 
  
  

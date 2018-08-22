@@ -70,7 +70,7 @@
  value and reference : 
  第一：计算机是怎么存储数据的  
  第二：stack and heap 
- 第三：延伸 ？
+ 第三：延伸到 function 
  
  
 

@@ -66,23 +66,20 @@
  还有一些 关于 游览器存储数据的 东东 需要写博文  <br> 
  从输入网址之后 发生了什么？<br>
  
- 其他：
- value and reference : 
- 第一：计算机是怎么存储数据的  
- 第二：stack and heap 
- 第三：延伸到 function 
- 
- 
+
+
 
 typeScript<br>
 
  
  
  phase 2 ： 框架 <br>
- 第二十二篇 第二十三篇  第三十二篇：react.js  <br>
- 第二十四篇 第二十五篇 ：vue.js  <br>
- 第二十八篇 第二十九篇 ：JQ<br>
- 第三十篇 第三十一篇react native   <br> 
+ react.js  <br>
+ how to 系列; 生命周期;  set state;  dom; redux;  项目难点类似总结;  <br>
+ vue.js  <br>
+ angular.js <br>
+ JQ<br>
+
  
  
  

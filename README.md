@@ -17,9 +17,9 @@ call apply bind <br>
 输入网址之后发生了什么<br>
 IIfe Let var const<br>
 forEach forMap <br>
-promising <br>
-原形<br>
-dom<br>
+promising 读书总结 相关面试题<br>
+原形红宝石 读书总结 相关面试题 <br>
+dom 红宝书的读书总结  相关面试题 <br>
 this 相关题目搜集<br>
 
 10篇 以上 <br>
@@ -39,6 +39,12 @@ http 3篇<br>
 安全 <br> 
 
 ============ 43p 
+
+面试题 分类总结 7p
+====================
+
+50p
+
 
 
 

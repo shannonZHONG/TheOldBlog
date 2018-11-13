@@ -14,14 +14,13 @@ css ：10篇<br>
 
 
 html 语义化<br>
-闭包:最好涉及到 scope 等 <br>
+闭包:最好涉及到 scope IIfe Let var const  <br>
 输入网址之后发生了什么<br>
-IIfe Let var const<br>
 promising 读书总结 相关面试题<br>
-原形红宝石 读书总结 相关面试题 <br>
 
 
-16篇 以上 <br>
+
+14篇 以上 <br>
 
 
 build series：JQ redux react.js virtual dom Angular.js <br>
@@ -31,13 +30,13 @@ build series：JQ redux react.js virtual dom Angular.js <br>
 
 http 3篇<br>
 
-============ 35p 
+============ 33p 
 
 数据 结构  单独一篇 <br>  
 排序算法  javascirpt ES6 参考大佬的文章 红宝书作者   <br> 
 安全 <br> 
 
-============ 38p 
+============ 36p 
 
 
 
